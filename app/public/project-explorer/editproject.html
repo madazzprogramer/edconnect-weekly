@@ -21,19 +21,18 @@
     <br>
     <h2>Edit Project</h2>
     <form>
-        <div>Project Name:<input type="name"></div>
+        <div>Project Name:<input type="text" name="name"></div>
         <br>
-        <div class="form-group">
-            <label for="my-textarea">Project Abstract:</label>
-            <textarea id="my-textarea" class="form-control" name="" rows="3"></textarea>
+        <div> 
+            Project Abstract: <textarea name="abstract" id="abstract" cols="5" rows="3"></textarea>
         </div>
         <br>
     
-        <div>Authors:<input type="authors:"></div>
+        <div>Authors:<input type="text" name="authors"></div>
         <br>
-        <div>Tag(s):<input type="tags:"></div>
+        <div>Tag(s):<input type="text" name="tags"></div>
         <br>
-        <input type="file" id="myFile" name="filename">
+        <input type="file" id="projectFile" name="projectFile">
         <br>
         <br>
         <input type="Submit">
